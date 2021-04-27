@@ -1,5 +1,5 @@
 <?php
-include_once('./vendor/Shopify.php');
+include_once '../vendor/Shopify.php';
 
 $shopify_url    = $_ENV["SHOPIFY_URL"];
 $shopify_api    = $_ENV["SHOPIFY_API"];
